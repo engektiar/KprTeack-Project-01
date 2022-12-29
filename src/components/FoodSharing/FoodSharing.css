@@ -1,0 +1,21 @@
+.foodsharing{
+    background-color: #face1c;
+    padding: 30px 0;
+}
+.foodsharing .container{
+    padding: 15px 0;
+}
+.foodsharing .container h4{
+    font-size: 18px;
+    padding: 15px 0px;
+    align-self: center;
+}
+.foodsharing .container button{
+    color: #face1c;
+    font-weight: 600;
+    background-color: #383634;
+    padding: 20px 22px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    -webkit-transition: all ease-in-out 0.5s;
+}
