@@ -18,4 +18,10 @@
     border-radius: 3px;
     background-clip: padding-box;
     -webkit-transition: all ease-in-out 0.5s;
+    border: 0;
+}
+.foodsharing .container button:hover{
+    background-color: #fff;
+    color: #383634;
+    -webkit-transition: all ease-in-out 0.5s;
 }
