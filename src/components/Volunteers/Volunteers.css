@@ -1,0 +1,47 @@
+.volunteers{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://onetakameal.org/uploads/ahar_settings/volunteers_bg_image.jpg');
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.volunteers-container{
+    padding: 107px 0;
+    max-width: 1170px !important;
+    margin: 0 auto !important;
+}
+.volunteers-container h2{
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+.volunteers .design-img div{
+    width: 110px;
+    height: 2px;
+    background-color: white;
+}
+.volunteers article{
+    margin-top: 16px;
+    font-weight: 400;
+    max-width: 550px;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+}
+.volunteers button{
+    margin-top: 48px;
+    background-color: #383634;
+    padding: 10px 27px;
+    text-transform: uppercase;
+    -webkit-transition: all ease-in-out 0.5s;
+    border: 0;
+    color: white;
+}
+.volunteers button:hover{
+    background-color: #face1c;
+    color: #383634;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-weight: 600;
+}
