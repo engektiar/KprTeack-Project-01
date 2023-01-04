@@ -4,10 +4,13 @@ import "./header.css";
 const Header = () => {
   return <header>
     <div className='container'>
-      <div className='header-up'>
-        <Link to=''>
-          <span>+8801878116232</span>
-        </Link>
+      <div className='header-up d-flex justify-content-between'>
+        <div className=''>
+          <i class="fa-solid fa-phone"></i>
+          <Link to=''>
+            <span>+8801878116232</span>
+          </Link>
+        </div>
         <div>
           <div>
             <Link to=''>বাংলা</Link>

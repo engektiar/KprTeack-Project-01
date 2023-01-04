@@ -1,6 +1,47 @@
 .header-down-main{
     position: relative;
 }
+.header-up{
+    padding: 17px 0;
+}
+.header-up > div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header-up > div:first-child a{
+    color: white;
+}
+.header-up a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.header-up i{
+    color: white;
+    font-size: 12px;
+}
+.header-up > div:last-child{
+    display: flex;
+    gap: 28px;
+}
+.header-up > div:last-child > div:first-child{
+    display: flex;
+    gap: 20px;
+}
+.header-up > div:last-child > div:first-child a{
+    color: white;
+}
+.header-up > div:last-child > div:first-child i{
+    margin-right: 3px;
+}
+.header-up > div:last-child > div:last-child{
+    display: flex;
+    gap: 10px;
+}
+.header-up > div:last-child > div:last-child i:hover{
+    color: #face1c;
+}
 .header-down{
     display: flex;
     overflow: visible;
