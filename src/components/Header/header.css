@@ -27,6 +27,7 @@
 }
 .header-down .bg-light .header-mid li:hover ul {
     display: block;
+    min-width: 216px;
 }
 .header-down .bg-light .header-mid li ul{
     display: none;
@@ -52,6 +53,9 @@
     white-space: nowrap;
     display: block;
     text-align: center;
+}
+.header-down .bg-light .header-mid li ul li:hover a{
+    color: white;
 }
 .header-down .bg-light .header-mid li a span{
     padding: 5px 8px;
