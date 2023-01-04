@@ -2,13 +2,15 @@ import React from "react";
 import "./App.css";
 import Donation from "./components/Donation/Donation";
 import FoodSharing from "./components/FoodSharing/FoodSharing";
+import Header from "./components/Header/Header";
 import Volunteers from "./components/Volunteers/Volunteers";
 
 function App() {
-  return <div>
-    <Donation></Donation>
+  return <div style={{background: '#bbbbbb'}}>
+    <Header></Header>
+    {/* <Donation></Donation>
     <Volunteers></Volunteers>
-    <FoodSharing></FoodSharing>
+    <FoodSharing></FoodSharing> */}
   </div>;
 }
 
