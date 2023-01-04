@@ -30,7 +30,16 @@ const Header = () => {
             <ul className='header-mid'>
               <li><Link to=''><span>Bidyanondo</span></Link></li>
               <li><Link to=''><span>Special Meal</span></Link></li>
-              <li><Link to=''>DONATIONS<i class="fa-solid fa-angle-down"></i></Link></li>
+              <li className='position-relative'><Link to=''>
+                DONATIONS
+                <i class="fa-solid fa-angle-down"></i>
+                <ul className='position-absolute'>
+                  <li><Link to=''>DONATE NOW</Link></li>
+                  <li><Link to=''>SPONSOR NOW</Link></li>
+                  <li><Link to=''>DONATION CLARIFICATION</Link></li>
+                  <li><Link to=''>BANK INFORMATION</Link></li>
+                </ul>
+              </Link></li>
               <li><Link to=''>FOOD PROJECTS<i class="fa-solid fa-angle-down"></i></Link></li>
               <li><Link to=''>MEDIA<i class="fa-solid fa-angle-down"></i></Link></li>
               <li><Link to=''>ABOUT<i class="fa-solid fa-angle-down"></i></Link></li>
