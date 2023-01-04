@@ -23,22 +23,24 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className='header-down'>
-        <div className='bg-light'>
-          <Link className='header-logo' to=''><img src='https://onetakameal.org/uploads/ahar_settings/logo.jpg' alt=''></img></Link>
-          <ul className='header-mid'>
-            <li><Link to=''>Bidyanondo</Link></li>
-            <li><Link to=''>Special Meal</Link></li>
-            <li><Link to=''>DONATIONS<i class="fa-solid fa-angle-down"></i></Link></li>
-            <li><Link to=''>FOOD PROJECTS<i class="fa-solid fa-angle-down"></i></Link></li>
-            <li><Link to=''>MEDIA<i class="fa-solid fa-angle-down"></i></Link></li>
-            <li><Link to=''>ABOUT<i class="fa-solid fa-angle-down"></i></Link></li>
-            <li><Link to=''>SIGN<i class="fa-solid fa-angle-down"></i> IN</Link></li>
-          </ul>
+      <div className='header-down-main'>
+        <div className='header-down'>
+          <div className='bg-light'>
+            <Link className='header-logo' to=''><img src='https://onetakameal.org/uploads/ahar_settings/logo.jpg' alt=''></img></Link>
+            <ul className='header-mid'>
+              <li><Link to=''><span>Bidyanondo</span></Link></li>
+              <li><Link to=''><span>Special Meal</span></Link></li>
+              <li><Link to=''>DONATIONS<i class="fa-solid fa-angle-down"></i></Link></li>
+              <li><Link to=''>FOOD PROJECTS<i class="fa-solid fa-angle-down"></i></Link></li>
+              <li><Link to=''>MEDIA<i class="fa-solid fa-angle-down"></i></Link></li>
+              <li><Link to=''>ABOUT<i class="fa-solid fa-angle-down"></i></Link></li>
+              <li><Link to=''>SIGN IN<i class="fa-solid fa-angle-down"></i></Link></li>
+            </ul>
+          </div>
+          <button className='header-button'>
+            <span>DONATE NOW</span>
+          </button>
         </div>
-        <button className='header-button'>
-          <span>DONATE NOW</span>
-        </button>
       </div>
     </div>
   </header>;

@@ -6,7 +6,7 @@ import Header from "./components/Header/Header";
 import Volunteers from "./components/Volunteers/Volunteers";
 
 function App() {
-  return <div style={{background: '#bbbbbb'}}>
+  return <div style={{background: '#bbbbbb', paddingBottom: '200px'}}>
     <Header></Header>
     {/* <Donation></Donation>
     <Volunteers></Volunteers>
