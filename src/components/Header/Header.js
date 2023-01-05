@@ -5,7 +5,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false)
   useEffect(() => {
     const event = () => {
-      if(window.scrollY >= 80){
+      if(window.scrollY >= 60){
         setToggle(true)
       }else{setToggle(false)}
     }
