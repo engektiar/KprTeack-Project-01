@@ -68,8 +68,8 @@ const Header = () => {
                 </ul></Link></li>
               <li><Link className='position-relative' to=''>SIGN IN<i class="fa-solid fa-angle-down"></i>
                 <ul className='position-absolute'>
-                  <li><Link to=''>SIGN UP</Link></li>
-                  <li><Link to=''>SIGN IN</Link></li>
+                  <li><Link to='signup'>SIGN UP</Link></li>
+                  <li><Link to='signin'>SIGN IN</Link></li>
                   <li><Link to=''>FORGOT PASSWORD</Link></li>
                 </ul></Link></li>
             </ul>

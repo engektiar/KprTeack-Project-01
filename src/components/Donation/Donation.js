@@ -7,7 +7,7 @@ const Donation = () => {
             <div className='donation-container'>
                 <div className='row'>
                     <div className='left col-md-5 col-sm-12'>
-                        <h2>WHO WE <span>ARE</span></h2>
+                        <h2 className='mt-5'>WHO WE <span>ARE</span></h2>
                         <p>In Bangladesh, we throw away an unbelievable amount of perfectly edible food every day. At the same time, a growing number of Bangladeshi find themselves struggling to make ends meet. In the course of a year, around 3.6 million Bangladesh find thems...</p>
                         <div className='button'><a href="https://onetakameal.org/about">read more</a></div>
                     </div>
