@@ -6,11 +6,11 @@ import Header from "./components/Header/Header";
 import Volunteers from "./components/Volunteers/Volunteers";
 
 function App() {
-  return <div style={{background: '#bbbbbb', paddingBottom: '200px'}}>
+  return <div className='body' style={{background: '#bbbbbb'}}>
     <Header></Header>
-    {/* <Donation></Donation>
+    <Donation></Donation>
     <Volunteers></Volunteers>
-    <FoodSharing></FoodSharing> */}
+    <FoodSharing></FoodSharing>
   </div>;
 }
 
