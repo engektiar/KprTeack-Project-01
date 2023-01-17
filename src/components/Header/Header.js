@@ -5,14 +5,14 @@ const Header = () => {
   const [toggle, setToggle] = useState(false)
   useEffect(() => {
     const event = () => {
-      if(window.scrollY >= 60){
+      if (window.scrollY >= 60) {
         setToggle(true)
-      }else{setToggle(false)}
+      } else { setToggle(false) }
     }
     window.addEventListener('scroll', event);
   }, [])
   return (
-    <section style={{position: 'fixed', width: '100%'}} className={`${toggle && 'header-section'}`}>
+    <section style={{ position: 'fixed', width: '100%' }} className={`${toggle && 'header-section'}`}>
       <header>
         <div className='container'>
           <div className='header-up d-flex justify-content-between'>
@@ -25,8 +25,8 @@ const Header = () => {
             <div>
               <div>
                 <Link to=''>বাংলা</Link>
-                <Link to=''><i class="fa-solid fa-user"></i> Sign In</Link>
-                <Link to=''><i class="fa-solid fa-user-plus"></i> Sign Up</Link>
+                <Link to='/signin'><i class="fa-solid fa-user"></i> Sign In</Link>
+                <Link to='/signup'><i class="fa-solid fa-user-plus"></i> Sign Up</Link>
               </div>
               <div>
                 <Link to=''><i class="fa-brands fa-facebook-f"></i></Link>
@@ -79,8 +79,8 @@ const Header = () => {
                     </ul></Link></li>
                   <li><Link className='position-relative' to=''>SIGN IN<i class="fa-solid fa-angle-down"></i>
                     <ul className='position-absolute'>
-                      <li><Link to=''>SIGN UP</Link></li>
-                      <li><Link to=''>SIGN IN</Link></li>
+                      <li><Link to='/signup'>SIGN UP</Link></li>
+                      <li><Link to='/signin'>SIGN IN</Link></li>
                       <li><Link to=''>FORGOT PASSWORD</Link></li>
                     </ul></Link></li>
                 </ul>
